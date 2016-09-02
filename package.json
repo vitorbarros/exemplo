@@ -1,0 +1,25 @@
+{
+  "name": "exemplo-angular-js",
+  "version": "1.0.0",
+  "description": "Exemplo de como usar alguns recursos do angular js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vitor Barros",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-touch": "^1.5.8",
+    "angular-ui-bootstrap": "^2.1.3",
+    "angular-ui-calendar": "^1.0.2",
+    "angular-ui-grid": "^3.2.6",
+    "bootstrap": "^3.3.7",
+    "fullcalendar": "^3.0.0-beta",
+    "jquery": "^3.1.0",
+    "materialize-css": "^0.97.7",
+    "moment": "^2.14.1",
+    "ng-file-upload": "^12.2.5"
+  }
+}

@@ -1,0 +1,36 @@
+nav {
+    background-color: #000;
+    height: 90px;
+}
+
+nav img {
+    width: 150px;
+    margin: 10px 0 0 0;
+}
+
+nav ul a {
+    padding: 13px 15px 13px 15px;
+}
+
+nav ul a:hover {
+    background-color: #FFFFFF;
+    color: #000;
+}
+.calendar-container,
+.grid-container .grid {
+    width: 100%;
+    margin: 70px 0 0 0;
+}
+
+.grid-container .grid input[type='text'] {
+    height: 25px;
+}
+
+.grid-container .grid input[type='text']:focus {
+    border: 1px solid #d4d4d4;
+    box-shadow: none;
+}
+
+.ui-grid-pager-control input{
+    margin: 0 10px 0 0;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="exemplo">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+        <link href='/node_modules/angular-ui-bootstrap/dist/ui-bootstrap-csp.css' rel='stylesheet'>
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/node_modules/fullcalendar/dist/fullcalendar.min.css">
+        <link rel="stylesheet" href="/node_modules/materialize-css/dist/css/materialize.min.css">
+        <link rel="stylesheet" href="/node_modules/angular-ui-grid/ui-grid.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <title>Exemplo Angular JS</title>
+    </head>
+    <body ng-controller="GlobalController">
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a class="brand-logo"><img src="/assets/img/to_up_header.png"></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i
+                            class="material-icons">reorder</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a ng-href="/">Home</a></li>
+                        <li><a ng-href="/grid">UI Grid</a></li>
+                        <li><a ng-href="/calendar">UI Calendar</a></li>
+                    </ul>
+                    <ul id="mobile-demo" class="side-nav">
+                        <li><a ng-href="/">Home</a></li>
+                        <li><a ng-href="/calendar">UI Calendar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div ng-view></div>
+
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/node_modules/moment/min/moment.min.js"></script>
+    <script type="text/javascript" src="/node_modules/fullcalendar/dist/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="/node_modules/fullcalendar/dist/gcal.js"></script>
+    <script type="text/javascript" src="/node_modules/fullcalendar/dist/locale/pt-br.js"></script>
+
+    <script type="text/javascript" src="/node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="/node_modules/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="/node_modules/ng-file-upload/dist/ng-file-upload-all.min.js"></script>
+    <script type="text/javascript" src="/node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+    <script type="text/javascript" src="/node_modules/angular-ui-grid/ui-grid.min.js"></script>
+    <script type="text/javascript" src="/node_modules/angular-ui-calendar/src/calendar.js"></script>
+    <script type="text/javascript" src="/node_modules/angular-touch/angular-touch.min.js"></script>
+
+    <script type="text/javascript" src="/app/app.js"></script>
+    <script type="text/javascript" src="/app/controllers/globalController.js"></script>
+    <script type="text/javascript" src="/app/controllers/indexController.js"></script>
+    <script type="text/javascript" src="/app/controllers/gridController.js"></script>
+    <script type="text/javascript" src="/app/controllers/calendarController.js"></script>
+    </body>
+</html>
